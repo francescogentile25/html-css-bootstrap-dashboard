@@ -49,3 +49,7 @@ aside{
 .icon-nav li {
     margin:  0 1rem;
 }
+
+.offcanvas{ /* add Responsivenes to default offcanvas */
+    --bs-offcanvas-width: 100vh!important;
+}
