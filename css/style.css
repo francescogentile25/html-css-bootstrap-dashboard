@@ -3,21 +3,18 @@ img{
 }
 
 body{
-    background-color: salmon;
+
 }
 header{
-    background-color: red;
-    border: 1px solid black;
+
 }
 main{
-    background-color: violet;
+
 }
 
 aside{
-    min-height: 100%;
     width: 68px;
-    border: 1px solid black;
-    background-color: aquamarine;
+    background-image: url(../img/sidebar-bg.png)
 }
 /*Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
@@ -46,10 +43,24 @@ aside{
 
 }
 
-.icon-nav li {
+.icon-nav i {
     margin:  0 1rem;
 }
 
 .offcanvas{ /* add Responsivenes to default offcanvas */
     --bs-offcanvas-width: 100vh!important;
+}
+
+.prova{
+    background-color: tomato;
+}
+.prova-2{
+    background-color: salmon;
+    border: 1px solid black;
+}
+
+.prova-3{
+    background-color: aqua;
+
+    border: 1px solid black;
 }
