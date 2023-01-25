@@ -53,3 +53,7 @@ aside{
 th img{
     width: 30px;
 }
+
+.dropstart .dropdown-menu[data-bs-popper] {
+    top: initial !important;
+}
